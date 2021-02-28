@@ -26,6 +26,7 @@ export default function NavBar() {
         <Grid container spacing={10} justify="center"> 
             <Grid item><Link to ="/"><ButtonStyled buttonText='Home'/></Link></Grid>
             <Grid item><Link to="/coding"><ButtonStyled buttonText='Coding'/></Link></Grid>
+            <Grid item><Link to="/portfolio"><ButtonStyled buttonText='Portfolio'/></Link></Grid>
             <Grid item><Link to="/resume"><ButtonStyled buttonText='Resume'/></Link></Grid>
             <Grid item><a href="https://github.com/sdeda1us" target="_blank"><Button><GitHubIcon/></Button></a></Grid>
             <Grid item><a href="https://www.linkedin.com/in/steven-maloney-71a991106/" target="_blank"><Button><LinkedInIcon/></Button></a></Grid>

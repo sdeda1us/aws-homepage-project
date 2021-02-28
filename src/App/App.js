@@ -4,6 +4,7 @@ import Blog from '../Blog/Blog.jsx';
 import Coding from '../Coding/Coding.jsx';
 import About from '../About/About.jsx';
 import Resume from '../Resume/Resume.jsx';
+import Portfolio from '../Portfolio/Portfolio.jsx';
 import 'fontsource-roboto';
 import {
   BrowserRouter as Router,
@@ -19,6 +20,7 @@ export default function App() {
         <NavBar/>
         <Switch>
           <Route exact path = "/" component={About}/>
+          <Route path="/portfolio" component={Portfolio}/>
           <Route path = "/coding" component={Coding}/>
           <Route path = "/resume" component={Resume}/>
           <Route path = "/blog" component={Blog}/>
