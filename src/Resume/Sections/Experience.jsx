@@ -4,7 +4,7 @@ export default function Experience({place, dateRange, jobTitle, workSpotlight}) 
 
     return(
         <>
-        <p>{place}</p>
+        <h3>{place}</h3>
         <p>{dateRange}</p>
         <p>{jobTitle}</p>
         <ul>{workSpotlight.map((worksp)=>(
