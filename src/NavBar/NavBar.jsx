@@ -23,7 +23,7 @@ function ButtonStyled({buttonText}) {
 
 export default function NavBar() {
     return (
-        <Grid container spacing={10} justify="center"> 
+        <Grid container spacing={10} justify="center" style={{marginTop: '10px'}}> 
             <Grid item><Link to ="/"><ButtonStyled buttonText='Home'/></Link></Grid>
             <Grid item><Link to="/coding"><ButtonStyled buttonText='Coding'/></Link></Grid>
             <Grid item><Link to="/portfolio"><ButtonStyled buttonText='Portfolio'/></Link></Grid>

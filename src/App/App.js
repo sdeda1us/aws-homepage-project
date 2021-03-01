@@ -11,10 +11,15 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import {Container, Paper, makeStyles} from '@material-ui/core';
+import './App.css'
+
+
 
 export default function App() {
   return (
-    <>
+    <Container>
+      <Paper elevation={3} style={{marginTop: '40px'}}>
       <Header/>
       <Router>
         <NavBar/>
@@ -26,7 +31,8 @@ export default function App() {
           <Route path = "/blog" component={Blog}/>
         </Switch>
       </Router>
-    </>
+      </Paper>
+    </Container>
   );
 }
 

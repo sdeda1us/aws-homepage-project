@@ -11,7 +11,7 @@ export default function Skills() {
                 <h2>Relevant Skills</h2>
             </Grid>
             <Grid container spacing={12} justify="center">
-                <GridList cols={3}>
+                <GridList cols={3} spacing={160}>
                 {skillList.map((skillSet)=>(
                     <GridListTile>
                         <ul>
